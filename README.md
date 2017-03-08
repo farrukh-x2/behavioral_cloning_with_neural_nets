@@ -45,6 +45,8 @@ The above command will load the trained model and use the model to make predicti
 ### Details in python notebook
 Please check out the `behaviorial_cloning_using_deep_neural_network.ipynb` notebook for details on the model. It also lists the reasons for selecting the particular model and how it was trained so that the car successfully completes the whole lap on its own.
 
+Autonomous Driving
+---
 `autonomous_driving` files contain the output. the mp4 is the original video and gif is displayed below:
 
 ![](autonomous_driving.gif)
