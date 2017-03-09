@@ -47,6 +47,6 @@ Please check out the `behaviorial_cloning_using_deep_neural_network.ipynb` noteb
 
 Autonomous Driving
 ---
-`autonomous_driving` files contain the output. the mp4 is the original video and gif is displayed below:
+`autonomous_driving` files contain the output. The mp4 is the full length video (3:55 Minutes) and gif is a 60 seconds clip, which is displayed below:
 
 ![](autonomous_driving.gif)
