@@ -1,5 +1,11 @@
 # Behaviorial Cloning Project
 
+## Autonomous Driving
+
+![](autonomous_driving.gif)
+
+This gif is a 60 second clip of autonomous driving based on a deep neural network. Full length video of the vehicle completing the track in the files.
+
 Overview
 ---
 In this project, deep neural networks and convolutional neural networks are used to clone driving behavior. Training, validation and testing the model is done using Keras. The model outputs a steering angle to an autonomous vehicle.
@@ -28,7 +34,8 @@ The project contains the following files:
 * drive.py (script to drive the car)
 * model.h5 (weights and training configuration of Keras model)
 * model.json (architecture of the trained Keras model)
-* autonomous_driving.mp4/.gif (a video recording of the vehicle driving autonomously around the track)
+* autonomous_driving.mp4 ( full length - 3:55 minute video recording of the vehicle driving autonomously around the track)
+* autonomous_driving.gif (a 60 second clip displayed above)
 * data (data to download from external sources to train the model)
 
 #### `drive.py`
@@ -44,9 +51,3 @@ The above command will load the trained model and use the model to make predicti
 
 ### Details in python notebook
 Please check out the `behaviorial_cloning_using_deep_neural_network.ipynb` notebook for details on the model. It also lists the reasons for selecting the particular model and how it was trained so that the car successfully completes the whole lap on its own.
-
-Autonomous Driving
----
-`autonomous_driving` files contain the output. The mp4 is the full length video (3:55 Minutes) and gif is a 60 seconds clip, which is displayed below:
-
-![](autonomous_driving.gif)
