@@ -33,14 +33,14 @@ The project contains the following files:
 
 #### `drive.py`
 
-Usage of `drive.py` requires the trained model as an h5 file, i.e. `model.h5`.
+Usage of `drive.py` requires the trained model as an json h5 file, i.e. `model.json` and `model.h5`.
 Once the model has been saved, it can be used with drive.py using this command:
 
 ```sh
-python drive.py model.h5
+python drive.py model.json
 ```
 
-The above command will load the trained model and use the model to make predictions on individual images in real-time and send the predicted angle back to the server via a websocket connection.
+The above command will load the trained model and use the model to make predictions on individual images in real-time and send the predicted angle back to the server via a websocket connection. The drive script will load the .h5 based on the name of the .json file.
 
 ### Details in python notebook
 Please check out the `behaviorial_cloning_using_deep_neural_network.ipynb` notebook for details on the model. It also lists the reasons for selecting the particular model and how it was trained so that the car successfully completes the whole lap on its own.
